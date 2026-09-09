@@ -65,13 +65,13 @@ Open the local URL displayed in the terminal (typically `http://localhost:5173`)
 ## Dashboard Preview
 
 ### Welcome
-![Welcome](docs/images/docs/images/dashboard_preview_1.png)
+![Welcome](docs/images/dashboard_preview_1.png)
 
 ### Story Mode
-![Story Mode](docs/images/docs/images/dashboard_preview_2.png)
+![Story Mode](docs/images/dashboard_preview_2.png)
 
 ### Scientific Mode
-![Scientific Mode](docs/images/docs/images/dashboard_preview_3.png)
+![Scientific Mode](docs/images/dashboard_preview_3.png)
 
 ## License
 
