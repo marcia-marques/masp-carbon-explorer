@@ -33,11 +33,11 @@ function ScienceInfoCard({ onClose }) {
               between the ecosystem and the atmosphere.
 
               The estimates were generated using the
-              Vegetation Photosynthesis and Respiration
-              Model (VPRM)
+              Urban Vegetation Photosynthesis and Respiration
+              Model (UrbanVPRM)
 
               <a
-                  href="https://doi.org/10.1029/2006GB002735"
+                  href="https://doi.org/10.1016/j.scitotenv.2017.03.028"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{
