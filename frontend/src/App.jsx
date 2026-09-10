@@ -89,7 +89,7 @@ function App() {
 
   useEffect(() => {
 
-    fetch(`/${selectedLayer}_metadata.json`)
+    fetch(`${import.meta.env.BASE_URL}${selectedLayer}_metadata.json`)
       .then((response) => response.json())
       .then((data) => {
         setRasterMetadata(data);

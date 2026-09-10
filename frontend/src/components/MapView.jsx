@@ -5,23 +5,23 @@ import bbox from "@turf/bbox";
 
 const LAYER_FILES = {
   NEE: {
-    image: "/NEE.png",
-    metadata: "/NEE_metadata.json",
+    image: `${import.meta.env.BASE_URL}NEE.png`,
+    metadata: `${import.meta.env.BASE_URL}NEE_metadata.json`,
   },
 
   GPP: {
-    image: "/GPP.png",
-    metadata: "/GPP_metadata.json",
+    image: `${import.meta.env.BASE_URL}GPP.png`,
+    metadata: `${import.meta.env.BASE_URL}GPP_metadata.json`,
   },
 
   Reco: {
-    image: "/Reco.png",
-    metadata: "/Reco_metadata.json",
+    image: `${import.meta.env.BASE_URL}Reco.png`,
+    metadata: `${import.meta.env.BASE_URL}Reco_metadata.json`,
   },
 
   land_cover: {
-    image: "/land_cover.png",
-    metadata: "/land_cover_metadata.json",
+    image: `${import.meta.env.BASE_URL}land_cover.png`,
+    metadata: `${import.meta.env.BASE_URL}land_cover_metadata.json`,
   },
 };
 
@@ -231,7 +231,7 @@ function MapView({
       map.addSource("masp-cities", {
         type: "geojson",
         // data: "/masp_cities.geojson",
-        data: "/masp_city_indicators.geojson",
+        data: `${import.meta.env.BASE_URL}masp_city_indicators.geojson`,
       });
 
               map.addLayer({
