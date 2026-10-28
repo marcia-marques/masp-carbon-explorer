@@ -46,10 +46,10 @@ The resulting maps provide spatially distributed estimates of Net Ecosystem Exch
 balance across the region. These biogenic flux estimates are presented alongside municipal-scale anthropogenic emissions
 data to place the contribution of vegetation in the context of human-made emissions.
 
-> **Disclaimer**
+> [!IMPORTANT]
+> **Preliminary Research Results**
 >
-> The estimates presented in this dashboard should be considered preliminary. The results are based on ongoing research
-> and are subject to revision as methods, datasets, and model configurations continue to be evaluated and refined.
+> The estimates presented in this dashboard are based on ongoing research and should be considered preliminary. Results may change as datasets, methods, and model configurations continue to be evaluated and refined.
 
 ## Getting Started
 
